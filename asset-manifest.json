@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grandvistacapital/static/css/main.cb87b3a3.css",
-    "main.js": "/grandvistacapital/static/js/main.0f9d3273.js",
+    "main.js": "/grandvistacapital/static/js/main.fa55785a.js",
     "static/js/453.419a5d54.chunk.js": "/grandvistacapital/static/js/453.419a5d54.chunk.js",
     "static/media/Ebook.webp": "/grandvistacapital/static/media/Ebook.53490bb7f2ae0c2fc983.webp",
     "static/media/coverPageBGImage.jpg": "/grandvistacapital/static/media/coverPageBGImage.653c87c5ced717d49742.jpg",
@@ -25,11 +25,11 @@
     "static/media/blank.jpg": "/grandvistacapital/static/media/blank.d8615a0b31fd3f9e8f0a.jpg",
     "index.html": "/grandvistacapital/index.html",
     "main.cb87b3a3.css.map": "/grandvistacapital/static/css/main.cb87b3a3.css.map",
-    "main.0f9d3273.js.map": "/grandvistacapital/static/js/main.0f9d3273.js.map",
+    "main.fa55785a.js.map": "/grandvistacapital/static/js/main.fa55785a.js.map",
     "453.419a5d54.chunk.js.map": "/grandvistacapital/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb87b3a3.css",
-    "static/js/main.0f9d3273.js"
+    "static/js/main.fa55785a.js"
   ]
 }
