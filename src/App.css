@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -32,7 +32,1022 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+.developerRNP {
+  color: transparent;
+  font-size: 12px;
+}
+
+/*************************************Header-Start*****************************************/
+
+.headerParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1250px;
+  padding: 25px 0px;
+  gap: 50px;
+}
+
+.headerLogo {
+  width: 200px;
+}
+
+.headerMenuUI {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 900px;
+}
+
+.headerMenuUI li {
+  font-weight: 550;
+  color: darkblue;
+  border-bottom: 3px solid transparent;
+  padding: 10px;
+  transition: all 0.35s ease-in-out;
+}
+
+.headerMenuUI li:hover {
+  color: #c0902c;
+  cursor: pointer;
+  border-bottom: 3px solid #c0902c;
+}
+
+/*************************************Header-End*****************************************/
+
+/*************************************Footer-Start*****************************************/
+
+.footerParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footerBoxTopBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.15cm;
+  background-color: orange;
+  gap: 22px;
+  padding: 10px 40px 20px 40px;
+  margin-bottom: -70px;
+  z-index: 100px;
+  position: relative;
+}
+
+.footerBoxTopBoxHR {
+  background-color: white;
+  width: 2px;
+  height: 70px;
+}
+
+.footerBoxTopSocailMediaBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  color: white;
+  gap: 5px;
+  /* border: 1px solid red; */
+}
+
+.footerBoxTopSocailMediaBox00 {
+  width: 140px;
+  padding-top: 10px;
+}
+
+.footerBoxTopSocailMediaBox i {
+  font-size: 30px;
+}
+
+.footerBoxTopSocailMediaContent {
+  padding: 40px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerBoxTopSocailMediaContentTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerBoxTopSocailMediaContentLink {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footerBoxTopSocailMediaBoxButton {
+  border: 1.5px solid white;
+  padding: 12px 15px;
+  border-radius: 0.15cm;
+  font-weight: bold;
+  background-color: #000037;
+  cursor: pointer;
+}
+
+.footerBoxBottomBox {
+  background-color: #000020;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.footerBoxBottomBoxImageDiv {
+  width: 1250px;
+  padding: 50px 0px 0px 0px;
+}
+
+.footerBoxBottomBoxImageDiv img {
+  width: 150px;
+}
+
+.footerBoxBottomBoxContentLinkBox {
+  width: 1250px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footerBoxBottomBoxContent,
+.footerBoxBottomBoxLinkBox {
+  width: 50%;
+  line-height: 27px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footerBoxBottomBoxLinkBoxdoteLinkSpanParent {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerBoxBottomBoxLinkBoxdoteLinkSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footerBoxBottomBoxLinkBoxdoteLinkSpan:hover {
+  color: orange;
+}
+
+.footerBoxBottomBoxLinkBoxdote {
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #c0902c;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #919191;
+  font-size: 13px;
+  padding-top: 30px;
+}
+
+.shushankTechLink {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.goTop {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  cursor: pointer;
+  padding: 7px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 0.15cm;
+}
+
+/*************************************Footer-End*****************************************/
+
+/*************************************HomePage-Start*****************************************/
+
+.homePageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+/*******************************CoverPage-Start***********************************/
+
+.homePageCoverPageParent {
+  background: linear-gradient(to bottom, #00002290, transparent), url(./PicesForPages/coverPageBGImage.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageCoverPageBox {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+}
+
+
+.homePageCoverPageHeading {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px black;
+  text-align: center;
+}
+
+
+.homePageCoverPageContent {
+  text-shadow: 0px 0px 3px black;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.homePageCoverPageButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.homePageCoverPageLeftRightButtonDiv {
+  width: 450px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+
+.homePageCoverPageLeftButton,
+.homePageCoverPageRightButton {
+  padding: 15px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5cm;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 900;
+}
+
+.homePageCoverPageLeftButton {
+  background-color: red;
+}
+
+.homePageCoverPageLeftButton:hover {
+  background-color: orange;
+  bottom: 1px;
+  width: 95%;
+  padding: 18px;
+}
+
+.homePageCoverPageRightButton {
+  background-color: orange;
+}
+
+.homePageCoverPageRightButton:hover {
+  background-color: darkorange;
+  bottom: 1px;
+  width: 95%;
+  padding: 18px;
+}
+
+/*******************************CoverPage-End***********************************/
+
+/*******************************ListOfToDo-Start***********************************/
+
+.homePageListOfToDoPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageListOfToDoPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1250px;
+  padding: 40px 0px;
+}
+
+.homePageListOfToDoPageDiv {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePageListOfToDoPageDivHR {
+  width: 6px;
+  height: 40px;
+  background-color: #000047;
+}
+
+.homePageListOfToDoPageSpanNumber {
+  color: #000047;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.homePageListOfToDoPageSpanContent {
+  color: #000020;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*******************************ListOfToDo-End***********************************/
+
+/**************************BuildYourPortfolio-Start******************************/
+
+.homePageBuildYourPortfolioPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageBuildYourPortfolioPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  gap: 50px;
+  padding: 40px 0px;
+}
+
+.homePageBuildYourPortfolioPageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homePageBuildYourPortfolioPageHeader {
+  font-size: 35px;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+
+.homePageBuildYourPortfolioPageContent {
+  font-size: 17px;
+}
+
+.homePageBuildYourPortfolioPageButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+}
+
+.homePageBuildYourPortfolioPageButton {
+  background-color: orange;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5cm;
+  cursor: pointer;
+  color: white;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.homePageBuildYourPortfolioPageButton:hover {
+  background-color: darkorange;
+  padding: 18px;
+  width: 88%;
+  bottom: 1px;
+}
+
+/**************************BuildYourPortfolio-End******************************/
+
+/*******************************HowItWorks-Start***********************************/
+
+.homePageHowItWorksPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageHowItWorksPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  gap: 50px;
+  padding: 40px 0px;
+}
+
+.homePageHowItWorksPageTopDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1100px;
+  gap: 20px;
+}
+
+.homePageHowItWorksPageHeader {
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.homePageHowItWorksPageContent {
+  font-size: 18px;
+  text-align: center;
+}
+
+.homePageHowItWorksPageButtonDiv {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homePageHowItWorksPageButtonDivBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 220px;
+}
+
+.homePageHowItWorksPageButtonDivBox img {
+  width: 80px;
+}
+
+.homePageHowItWorksPageButtonDivBoxTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.homePageHowItWorksPageButtonDivBoxContent {
+  font-size: 17px;
+  text-align: center;
+}
+
+/*******************************HowItWorks-End***********************************/
+
+/*******************************Investing-Start***********************************/
+
+.homePageInvestingPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageInvestingPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1250px;
+  padding: 40px 0px;
+  gap: 30px;
+}
+
+.homePageInvestingPageHeader {
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.homePageInvestingPageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.homePageInvestingPageDivBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  padding: 15px 10px;
+  border: 1px solid #919191;
+  border-radius: 0.25cm;
+  gap: 15px;
+}
+
+.homePageInvestingPageDivBox img {
+  width: 40px;
+}
+
+.homePageInvestingPageRightSpan {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homePageInvestingPageButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+
+
+.homePageInvestingPageButton {
+  background-color: orange;
+  padding: 15px;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5cm;
+  cursor: pointer;
+  color: white;
+  /* width: 350px; */
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.homePageInvestingPageButton:hover {
+  background-color: darkorange;
+  padding: 18px;
+  width: 39%;
+  bottom: 1px;
+}
+
+/*******************************Investing-End***********************************/
+
+/*****************************PassiveInvestor-Start*******************************/
+
+.homePagePassiveInvestorPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePagePassiveInvestorPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  padding: 40px 0px;
+  gap: 100px;
+}
+
+.homePagePassiveInvestorPageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.homePagePassiveInvestorPageDiv img {
+  width: 350px;
+}
+
+
+.homePagePassiveInvestorPageHeader {
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.homePagePassiveInvestorPageSubHeader {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+
+.homePagePassiveInvestorPageContent {
+  font-size: 17px;
+  padding: 10px 0px;
+}
+
+.homePagePassiveInvestorPageButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+
+.homePagePassiveInvestorPageButton {
+  background-color: orange;
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5cm;
+  cursor: pointer;
+  color: white;
+  width: 180px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.homePagePassiveInvestorPageButton:hover {
+  background-color: darkorange;
+  padding: 18px;
+  width: 41%;
+  bottom: 1px;
+}
+
+/*****************************PassiveInvestor-End*******************************/
+
+/**********************************************************************************
+CurrentInvestment-Start
+and
+ClosedOffering-Start
+**********************************************************************************/
+
+.homePageCurrentInvestmentPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageCurrentInvestmentPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0px 25px 0px;
+  width: 1250px;
+}
+
+.homePageCurrentInvestmentPageBoxDivParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.homePageCurrentInvestmentPageBoxDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0px;
+  gap: 10px;
+  width: 380px;
+  box-shadow: 0px 0px 1px 0px gray;
+  border-radius: 0.15cm;
+  background-color: whitesmoke;
+}
+
+.homePageCurrentInvestmentPageHeader {
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.homePageCurrentInvestmentPageImageDiv {
+  width: 380px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.15cm;
+  overflow: hidden;
+  z-index: 1100;
+  position: relative;
+}
+
+
+.homePageCurrentInvestmentPageImageDiv img {
+  width: 380px;
+  transition: all 0.5s ease-in-out;
+}
+
+.homePageCurrentInvestmentPageBoxDiv:hover>.homePageCurrentInvestmentPageImageDiv img {
+  width: 430px;
+}
+
+.homePageCurrentInvestmentPageImageDiv::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.homePageCurrentInvestmentPageBoxDiv:hover .homePageCurrentInvestmentPageImageDiv::after {
+  background: linear-gradient(to top, #00003a90, transparent);
+}
+
+
+.homePageCurrentInvestmentPageImageDivSticker,
+.homePageClosedOfferingPageImageDivSticker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 3px #5c5c5c;
+  transform: rotate(45deg) translate(65px, -120px);
+  font-size: 13px;
+
+  width: 300px;
+  padding: 5px;
+  /* letter-spacing: 1.5px; */
+  z-index: 1000;
+}
+
+.homePageClosedOfferingPageImageDivSticker {
+  background-color: #be0000;
+}
+
+.homePageCurrentInvestmentPageSubHeader {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.homePageCurrentInvestmentPageContent {
+  font-size: 14px;
+  padding: 0px 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.homePageCurrentInvestmentPageButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+
+.homePageCurrentInvestmentPageButton {
+  background-color: orange;
+  padding: 10px 18px;
+  border-radius: 0.5cm;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.homePageCurrentInvestmentPageButton:hover {
+  background-color: darkorange;
+  padding: 12px 25px;
+  bottom: 1px;
+}
+
+
+.homePageCurrentInvestmentPageDetailsParent {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0px;
+  margin-top: 10px;
+  border-top: 1px solid #9a9a9a;
+}
+
+.homePageCurrentInvestmentPageDetailsBox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px 10px;
+  width: 125px;
+}
+
+/* .homePageCurrentInvestmentPageDetailsBoxLeft {
+  border-right: 1px solid #9a9a9a;
+} */
+
+.homePageCurrentInvestmentPageDetailsBoxMiddle {
+  border-right: 1px solid #9a9a9a;
+  border-left: 1px solid #9a9a9a;
+}
+
+/* .homePageCurrentInvestmentPageDetailsBoxRight {
+  border-left: 1px solid #9a9a9a;
+} */
+
+.homePageCurrentInvestmentPageDetailsBoxImageSpan {
+  width: 20px;
+  height: 20px;
+}
+
+.homePageCurrentInvestmentPageDetailsBoxImageSpan img {
+  width: 20px;
+}
+
+
+
+.homePageCurrentInvestmentPageDetailsNumber {
+  font-weight: 1000;
+  font-size: 18px;
+  color: #000049;
+}
+
+.homePageCurrentInvestmentPageDetailsTitle {
+  font-size: 13px;
+}
+
+.homePageCurrentInvestmentPageButtonViewMoreDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+
+.homePageCurrentInvestmentPageButtonViewMore {
+  background-color: darkorange;
+  padding: 10px 35px;
+  border-radius: 0.5cm;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.homePageCurrentInvestmentPageButtonViewMore:hover {
+  background-color: orange;
+  padding: 13px 45px;
+  bottom: 1px;
+}
+
+/**********************************************************************************
+CurrentInvestment-End
+and
+ClosedOffering-End
+**********************************************************************************/
+
+/********************************MeetTeam-Start***********************************/
+
+.homePageMeetTeamPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homePageMeetTeamPageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1250px;
+  gap: 30px;
+  padding: 70px 0px;
+}
+
+.homePageMeetTeamPageHeader {
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.homePageMeetTeamPageListBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.homePageMeetTeamPageListPicNameDesignation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 200px;
+  box-shadow: 1px 1px 5px 0px gray;
+  border-radius: 0.15cm;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+  height: 200px;
+  transition: all 1s ease-in-out;
+}
+
+.homePageMeetTeamPageListPicNameDesignation:hover {
+  bottom: 7px;
+}
+
+.homePageMeetTeamPageListPicNameDesignation img {
+  width: 200px;
+}
+
+.homePageMeetTeamPageListNameDesignationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 200px;
+  background: linear-gradient(to top, #00003a, transparent);
+  height: 200px;
+  position: absolute;
+  z-index: 900;
+  top: 200px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.homePageMeetTeamPageListPicNameDesignation:hover>.homePageMeetTeamPageListNameDesignationBox {
+  bottom: 220px;
+  top: 0px;
+}
+
+
+
+/********************************MeetTeam-End***********************************/
+
+/*************************************HomePage-End*****************************************/
