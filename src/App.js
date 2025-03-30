@@ -40,7 +40,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/GrandVistaCapital">
+      <BrowserRouter basename="/grandvistacapital">
         {/* <BrowserRouter> */}
         <ScrollToTop />
         <Header />
