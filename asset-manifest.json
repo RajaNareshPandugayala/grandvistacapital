@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/grandvistacapital/static/css/main.cb87b3a3.css",
+    "main.js": "/grandvistacapital/static/js/main.0f9d3273.js",
+    "static/js/453.419a5d54.chunk.js": "/grandvistacapital/static/js/453.419a5d54.chunk.js",
+    "static/media/Ebook.webp": "/grandvistacapital/static/media/Ebook.53490bb7f2ae0c2fc983.webp",
+    "static/media/coverPageBGImage.jpg": "/grandvistacapital/static/media/coverPageBGImage.653c87c5ced717d49742.jpg",
+    "static/media/Percentage.png": "/grandvistacapital/static/media/Percentage.754be050d8716145cf73.png",
+    "static/media/USD.png": "/grandvistacapital/static/media/USD.426885aa014ee7247380.png",
+    "static/media/LogoBGRemoved.png": "/grandvistacapital/static/media/LogoBGRemoved.f8a854108e021f8c1adb.png",
+    "static/media/OIP (3).jpeg": "/grandvistacapital/static/media/OIP (3).98cb32a7e7483c9dc135.jpeg",
+    "static/media/steps.png": "/grandvistacapital/static/media/steps.f50701cb90c982ec84dd.png",
+    "static/media/handHoldingUsd.png": "/grandvistacapital/static/media/handHoldingUsd.fbf4efab1a2212966569.png",
+    "static/media/invesment.png": "/grandvistacapital/static/media/invesment.9fccad3a7b8b27d06cba.png",
+    "static/media/OIP.jpeg": "/grandvistacapital/static/media/OIP.804a56c595c2cdb4a3e0.jpeg",
+    "static/media/supportServices.png": "/grandvistacapital/static/media/supportServices.0fba3d2e5a202c71d82a.png",
+    "static/media/mutualFund.png": "/grandvistacapital/static/media/mutualFund.4ffab5b438a465bed261.png",
+    "static/media/onlineLearning.png": "/grandvistacapital/static/media/onlineLearning.98acde39f6a78721900b.png",
+    "static/media/thumbsUp.png": "/grandvistacapital/static/media/thumbsUp.788e14ae38891133d82d.png",
+    "static/media/LogoHeaderBGRemoved.png": "/grandvistacapital/static/media/LogoHeaderBGRemoved.ac143b688464409aadc7.png",
+    "static/media/OIP (2).jpeg": "/grandvistacapital/static/media/OIP (2).e0c037e6e927abbcbc0e.jpeg",
+    "static/media/cash.png": "/grandvistacapital/static/media/cash.bc4ae7dbddcb6d0effcd.png",
+    "static/media/join.png": "/grandvistacapital/static/media/join.b32a8e77fc97c3e60e76.png",
+    "static/media/OIP (1).jpeg": "/grandvistacapital/static/media/OIP (1).ce41d994d61e64dac3bb.jpeg",
+    "static/media/blank.jpg": "/grandvistacapital/static/media/blank.d8615a0b31fd3f9e8f0a.jpg",
+    "index.html": "/grandvistacapital/index.html",
+    "main.cb87b3a3.css.map": "/grandvistacapital/static/css/main.cb87b3a3.css.map",
+    "main.0f9d3273.js.map": "/grandvistacapital/static/js/main.0f9d3273.js.map",
+    "453.419a5d54.chunk.js.map": "/grandvistacapital/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb87b3a3.css",
+    "static/js/main.0f9d3273.js"
+  ]
+}
