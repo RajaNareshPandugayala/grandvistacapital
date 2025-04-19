@@ -12,11 +12,18 @@ function Header() {
           <img src={Logo} alt="Logo" className="headerLogo" />
         </Link>
         <ui className="headerMenuUI">
-          <li>Invest</li>
-          <li>Portfolio</li>
-          <li>Learning</li>
-          <li>Center</li>
-          <li>About Us</li>
+          <Link to="/investment-portfolio" className="headerMenuUILink">
+            <li>Invest</li>
+          </Link>
+          <Link to="/investment-portfolio" className="headerMenuUILink">
+            <li>Portfolio</li>
+          </Link>
+          <Link to="/leadership" className="headerMenuUILink">
+            <li>Leadership</li>
+          </Link>
+          <Link to="/contact-us" className="headerMenuUILink">
+            <li>Contact Us</li>
+          </Link>
           <li>Events</li>
           <li>She</li>
           <li>Submit Deal</li>

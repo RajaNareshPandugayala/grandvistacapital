@@ -87,6 +87,15 @@
   transition: all 0.35s ease-in-out;
 }
 
+.headerMenuUILink {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.headerMenuUILink:hover {
+  color: #c0902c;
+}
+
 .headerMenuUI li:hover {
   color: #c0902c;
   cursor: pointer;
@@ -264,6 +273,7 @@
   border: 1px solid gray;
   color: gray;
   border-radius: 0.15cm;
+  z-index: 1500;
 }
 
 /*************************************Footer-End*****************************************/
@@ -1051,3 +1061,174 @@ ClosedOffering-End
 /********************************MeetTeam-End***********************************/
 
 /*************************************HomePage-End*****************************************/
+
+
+/************************************Portfolio-Start***************************************/
+
+.portfolioPatent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/**************************CoverPagePortfolio-Start******************************/
+
+.CoverPagePortfolioParent {
+  background: linear-gradient(to bottom, #00002290, transparent), url(./PicesForPages/coverPageBGImage.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.CoverPagePortfolioBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CoverPagePortfolioTitle {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+/**************************CoverPagePortfolio-End******************************/
+
+/************************************Portfolio-End***************************************/
+
+/************************************Leadership-Start***************************************/
+
+/**************************OurMissionLeadership-Start******************************/
+
+.ourMissionLeadershipPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ourMissionLeadershipPageBox {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 1250px;
+  padding: 40px 0px;
+  gap: 15px;
+}
+
+.ourMissionLeadershipPageContentDiv {
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ourMissionLeadershipPageContentHeadingTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.ourMissionLeadershipPageContentHeading {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.ourMissionLeadershipPageContentText {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+.ourMissionLeadershipPageImageDiv {
+  width: 500px;
+  border-radius: 0.25cm;
+  z-index: 1000;
+  background-image: url(./PicesForPages/leadershipImages.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/**************************OurMissionLeadership-End******************************/
+
+/************************************Leadership-End***************************************/
+
+
+/************************************ContactUs-End***************************************/
+
+/**************************InformationContact-Start******************************/
+
+.informationContactPageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.informationContactPageBox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 1250px;
+  padding: 40px 0px;
+  gap: 45px;
+}
+
+.informationContactPageBoxDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.informationContactPageHeader {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.informationContactPageMailLocationDiv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.informationContactPageMail,
+.informationContactPageLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.informationContactPageMail i,
+.informationContactPageLocation i {
+  color: #ffae00;
+  font-size: 30px;
+}
+
+.informationContactPageMail span,
+.informationContactPageLocation span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/**************************InformationContact-End******************************/
+
+/************************************ContactUs-End***************************************/
