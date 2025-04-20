@@ -2,7 +2,7 @@ import React from "react";
 // import housingIcon from "../../PicesForPages/equal-housing-opportunity-logo-100-w.png";
 // import whatappIcon from "../../PicesForPages/WhatsappIcon.png";
 import Logo from "../../PicesForPages/LogoBGRemoved.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
   // Scroll to the top function
@@ -23,7 +23,7 @@ function Footer() {
                 Email Us
               </span>
               <span className="footerBoxTopSocailMediaContentLink">
-                investors@grandvista.capital
+                Gary@grandvistacapital.com
               </span>
             </span>
           </div>
@@ -75,19 +75,30 @@ function Footer() {
                 <span className="footerBoxBottomBoxLinkBoxdoteLinkSpan">
                   <span className="footerBoxBottomBoxLinkBoxdote"></span>
                   <span className="footerBoxBottomBoxLinkBoxLink">
-                    Leadership
+                    <Link to="/leadership" className="footerBoxBottomBoxLink">
+                      Leadership
+                    </Link>
                   </span>
                 </span>
                 <span className="footerBoxBottomBoxLinkBoxdoteLinkSpan">
                   <span className="footerBoxBottomBoxLinkBoxdote"></span>
-                  <span className="footerBoxBottomBoxLinkBoxLink">Contact</span>
+                  <span className="footerBoxBottomBoxLinkBoxLink">
+                    <Link to="/contact-us" className="footerBoxBottomBoxLink">
+                      Contact
+                    </Link>
+                  </span>
                 </span>
               </span>
               <span className="footerBoxBottomBoxLinkBoxdoteLinkSpanParent">
                 <span className="footerBoxBottomBoxLinkBoxdoteLinkSpan">
                   <span className="footerBoxBottomBoxLinkBoxdote"></span>
                   <span className="footerBoxBottomBoxLinkBoxLink">
-                    Portfolio
+                    <Link
+                      to="/investment-portfolio"
+                      className="footerBoxBottomBoxLink"
+                    >
+                      Portfolio
+                    </Link>
                   </span>
                 </span>
                 <span className="footerBoxBottomBoxLinkBoxdoteLinkSpan">

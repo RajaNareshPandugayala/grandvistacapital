@@ -92,7 +92,8 @@
   color: darkblue;
 }
 
-.headerMenuUILink:hover {
+.headerMenuUILink:hover,
+.headerMenuUILink.active {
   color: #c0902c;
 }
 
@@ -239,6 +240,16 @@
 }
 
 .footerBoxBottomBoxLinkBoxdoteLinkSpan:hover {
+  color: orange;
+}
+
+.footerBoxBottomBoxLink {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footerBoxBottomBoxLink:hover {
   color: orange;
 }
 

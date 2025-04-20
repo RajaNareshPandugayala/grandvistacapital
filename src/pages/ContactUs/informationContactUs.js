@@ -11,11 +11,11 @@ function InformationContactUs() {
           <div className="informationContactPageMailLocationDiv">
             <span className="informationContactPageMail">
               <i class="ri-mail-fill"></i>
-              <span>info@massivecapital.com</span>
+              <span>Gary@grandvistacapital.com</span>
             </span>
             <span className="informationContactPageLocation">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Katy, Texas, 77494</span>
+              <span>_____, Texas, 77494</span>
             </span>
           </div>
           <iframe
